@@ -12,7 +12,7 @@ namespace Section3_DSA2_Saif.Options
 
         public void Execute()
         {
-            MoneyProcessor moneyProcessor = new MoneyProcessor();
+            MoneyProcessor moneyProcessor = new();
             moneyProcessor.FindLeastAmount();
         }
     }
